@@ -1,0 +1,128 @@
+.excursions {
+    padding: 3em 0;
+    text-align: center;
+}
+.excursions .body {
+    text-align: center;
+    padding: 1em;
+}
+.excursions .body .name {
+    font-size: 2.125rem;
+}
+.excursions .body .text {
+    margin: 1em 0 0 0;
+}
+.excursions .body .text p {
+    text-align: center;
+}
+.excursions .buttons {
+    margin: 2em 0 0 0;
+}
+.excursions .row + .row {
+    margin-top: 2rem;
+}
+.excursions .row:nth-child(odd) {
+    background-color: #f8f8f8;
+}
+.excursions .row {
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    padding: 1.5% 0;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+.form__order .single__block select {
+    border: 1px solid #f57336;
+    padding: 12px;
+    background-color: #fff;
+    width: 100%;
+}
+.popup {
+    overflow-y: auto;
+    height: 100vh;
+}
+#view__detail-popup {
+    top: 1%;
+}
+.logo img {
+    max-width: 100%;
+}
+#nav__menu .phone a {
+    vertical-align: middle;
+}
+#nav__menu .phone a .icon {
+    fill: #fff;
+}
+.header .intro__text .btn {
+    background-color: #326100;
+    border: 1px solid #265300;
+}
+.header .intro__text .btn:hover, .btn:hover, .btn.active:hover, #nav__menu .btn:hover {
+    background-color: #265300;
+}
+.btn, .btn.active {
+    background-color: #326100;
+    border: 1px solid #265300;
+    color: #fff;
+}
+.excursions .buttons div + div {
+    margin: 0 0 0 .5rem;
+}
+#nav__menu.is__sticky {
+    background-color: #265300;
+    border: none;
+}
+#nav__menu .nav__menu-box ul li a:hover {
+    text-decoration: underline;
+}
+.rooms__slider-img {
+    border: none;
+}
+#nav__menu .btn {
+    padding: 6px 14px;
+    margin: 0 0 0 1.5em;
+}
+#nav__menu .icon__whatsapp, #nav__menu .icon__viber, .t-msg svg {
+    fill: #fff;
+}
+.t-msg {
+    margin: 0 0 0 5px;
+}
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+footer .footer__contacts > div {
+    display: flex;
+    align-items: center;
+}
+.title, .excursions .body .name {
+    color: #006400;
+    font-family: 'Russo One', sans-serif;
+}
+.header .intro__text .title, footer .title {
+    color: #FFFFFF;
+    font-family: 'Russo One', sans-serif;
+}
+
+@media screen and (max-width: 992px) {
+    .t-msg svg {
+        width: 28px;
+        height: 28px;
+    }
+    .burger-mob {
+        margin: 0 0 0 2.5rem;
+    }
+    .header .intro__text {
+        margin: 50vh 0 0 0;
+    }
+    footer .flex {
+        justify-content: center;
+    }
+    .excursions {
+        padding: 0;
+    }
+    .default .title, .title {
+        margin: .5rem 0 0 0;
+    }
+}
