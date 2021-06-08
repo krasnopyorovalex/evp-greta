@@ -53,15 +53,15 @@
     fill: #fff;
 }
 .header .intro__text .btn {
-    background-color: #326100;
-    border: 1px solid #265300;
+    background-color: #FF00FF;
+    border: 1px solid #C800DB;
 }
 .header .intro__text .btn:hover, .btn:hover, .btn.active:hover, #nav__menu .btn:hover {
-    background-color: #265300;
+    background-color: #C800DB;
 }
 .btn, .btn.active {
-    background-color: #326100;
-    border: 1px solid #265300;
+    background-color: #FF00FF;
+    border: 1px solid #C800DB;
     color: #fff;
 }
 .excursions .buttons div + div {

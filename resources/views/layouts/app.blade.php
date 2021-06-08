@@ -52,15 +52,15 @@
                             <svg class="icon">
                                 <use xlink:href="{{ asset('img/symbols.svg#phone_mob') }}"></use>
                             </svg>
-                            <a href="tel:+79782137415">
-                                +7 (978) 213-74-15
+                            <a href="tel:+79780824244">
+                                +7 (978) 082 42 44
                             </a>
-                            <a href="https://wa.me/79782137415" class="t-msg">
+                            <a href="https://wa.me/79780824244" class="t-msg">
                                 <svg class="icon__whatsapp">
                                     <use xlink:href="{{ asset('img/symbols.svg#whatsapp') }}"></use>
                                 </svg>
                             </a>
-                            <a href="viber://add?number=79782137415" class="t-msg">
+                            <a href="viber://add?number=79780824244" class="t-msg">
                                 <svg class="icon__viber">
                                     <use xlink:href="{{ asset('img/symbols.svg#viber') }}"></use>
                                 </svg>
@@ -84,13 +84,13 @@
                 <div class="col-12">
                     <div class="intro__text">
                         <div class="title">
-                            <div> Гастротуры в Балаклаву</div>
+                            <div>Недвижимость Евпатория</div>
                         </div>
                         <div class="sub__title">
                             <div></div>
                         </div>
                         <div class="h-btn-box">
-                            <div class="btn call__popup" data-target="popup__order">Заказать тур</div>
+                            <div class="btn call__popup" data-target="popup__order">Забронировать</div>
                         </div>
                     </div>
                 </div>
@@ -106,23 +106,17 @@
                 <div class="col-5">
                     <div class="title">Наши контакты</div>
                     <div class="footer__contacts">
-{{--                        <div>--}}
-{{--                            <svg class="icon">--}}
-{{--                                <use xlink:href="{{ asset('img/symbols.svg#phone') }}"></use>--}}
-{{--                            </svg>--}}
-{{--                            <a href="tel:+79780141515">+7 (978) 014-15-15 - офис-менеджер</a>--}}
-{{--                        </div>--}}
                         <div class="flex">
                             <svg class="icon">
                                 <use xlink:href="{{ asset('img/symbols.svg#phone') }}"></use>
                             </svg>
-                            <a href="tel:+79782137415">+7 (978) 213-74-15</a>
-                            <a href="https://wa.me/79782137415" class="t-msg">
+                            <a href="tel:+79782137415">+7 (978) 082 42 44</a>
+                            <a href="https://wa.me/79780824244" class="t-msg">
                                 <svg class="icon__whatsapp">
                                     <use xlink:href="{{ asset('img/symbols.svg#whatsapp') }}"></use>
                                 </svg>
                             </a>
-                            <a href="viber://add?number=79782137415" class="t-msg">
+                            <a href="viber://add?number=+79780824244" class="t-msg">
                                 <svg class="icon__viber">
                                     <use xlink:href="{{ asset('img/symbols.svg#viber') }}"></use>
                                 </svg>
@@ -132,14 +126,20 @@
                             <svg class="icon">
                                 <use xlink:href="{{ asset('img/symbols.svg#email') }}"></use>
                             </svg>
-                            <a href="mailto:gastrotur92@yandex.ru">gastrotur92@yandex.ru</a>
+                            <a href="mailto:mirgorak@gmail.com">mirgorak@gmail.com</a>
                         </div>
-{{--                        <div>--}}
-{{--                            <svg class="icon icon__address">--}}
-{{--                                <use xlink:href="{{ asset('img/symbols.svg#address') }}"></use>--}}
-{{--                            </svg>--}}
-{{--                            Республика Крым, Симферополь, ул. Набережная 75В, ТРЦ Гагаринский, 2 этаж, офис 225--}}
-{{--                        </div>--}}
+                        <div>
+                            <svg class="icon">
+                                <use xlink:href="{{ asset('img/symbols.svg#email') }}"></use>
+                            </svg>
+                            <a href="mailto:mirgorak@yandex.ru">mirgorak@yandex.ru</a>
+                        </div>
+                        <div>
+                            <svg class="icon icon__address">
+                                <use xlink:href="{{ asset('img/symbols.svg#address') }}"></use>
+                            </svg>
+                            Республика Крым, г.Евпатория ул. Демышева д. 15-Б
+                        </div>
                     </div>
                 </div>
                 <div class="col-4">
@@ -168,7 +168,7 @@
             </div>
             <div class="row flex-center">
                 <div class="col-12">
-                    <div class="copyright">© {{ date('Y') }} Банк недвижимости. Все права защищены.</div>
+                    <div class="copyright">© {{ date('Y') }} Недвижимость в Евпатории. Все права защищены.</div>
                 </div>
             </div>
         </div>
