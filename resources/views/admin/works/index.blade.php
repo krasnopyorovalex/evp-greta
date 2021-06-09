@@ -1,13 +1,13 @@
 @extends('layouts.admin')
 
 @section('breadcrumb')
-    <li class="active">Наши туры</li>
+    <li class="active">Наши квартиры</li>
 @endsection
 
 @section('content')
 
     <a href="{{ route('admin.works.create') }}" type="button" class="btn bg-primary">
-        Добавить тур
+        Добавить квартиру
         <i class="icon-stack-plus position-right"></i>
     </a>
 

@@ -6,6 +6,16 @@
 @section('content')
 
     <main>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        {!! $page->text !!}
+                    </div>
+                </div>
+            </div>
+        </section>
+
         @includeWhen(count($works), 'layouts.sections.works')
 
         @includeWhen(count($abouts), 'layouts.sections.about')

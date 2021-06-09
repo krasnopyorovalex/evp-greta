@@ -68,7 +68,7 @@
     margin: 0 0 0 .5rem;
 }
 #nav__menu.is__sticky {
-    background-color: #265300;
+    background-color: #6EB817;
     border: none;
 }
 #nav__menu .nav__menu-box ul li a:hover {
@@ -104,7 +104,57 @@ footer .footer__contacts > div {
     color: #FFFFFF;
     font-family: 'Russo One', sans-serif;
 }
-
+.table-price {
+    width: 100%;
+    margin: 30px 0 20px 0;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+}
+.table-price tr td + td, .table-price tr th + th {
+    border-left: 1px solid #fff;
+}
+.table-price tr td, .table-price tr th {
+    padding: 10px;
+}
+.table-price tr th {
+    color: #fefefe;
+    font-weight: 400;
+    background-color: #6EB817;
+    font-size: 18px;
+}
+.table-price tr td {
+    background-color: #CBF0FE;
+    vertical-align: middle;
+    color: #000;
+    font-size: 18px;
+    border-top: 1px solid #fff;
+    font-weight: 400;
+}
+.table-price tr td:nth-child(2n+1) {
+    background-color: #98DDFE;
+}
+.table-price tr:nth-child(2n) td, .table-price tr td:first-child {
+    background-color: #CBF0FE;
+}
+.table-price tr:nth-child(2n) td:nth-child(2n) {
+    background-color: #98DDFE;
+}
+.table-price th {
+    text-align: center;
+}
+.table-price th:first-child, .table-price td:first-child {
+    text-align: left;
+}
+.table-price td p {
+    margin: 0;
+}
+.table-price .info {
+    font-size: 14px;
+    color: #666666;
+}
+.map__section form {
+    background-color: #CBF0FE;
+}
 @media screen and (max-width: 992px) {
     .t-msg svg {
         width: 28px;
