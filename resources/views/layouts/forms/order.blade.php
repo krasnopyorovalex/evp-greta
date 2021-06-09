@@ -11,7 +11,7 @@
     <div class="single__block">
         @if(count($works))
             <select name="excursion" id="excursion__name">
-                <option value="" disabled selected>Выберите экскурсию</option>
+                <option value="" disabled selected>Выберите этаж</option>
             @foreach($works as $work)
                 <option value="{{ $work->name }}">{{ $work->name }}</option>
             @endforeach
@@ -20,6 +20,23 @@
     </div>
     <div class="single__block">
         <input type="text" name="fio" placeholder="ФИО*" autocomplete="off" required="">
+    </div>
+    <div class="single__block">
+        <input type="text" name="date_in" placeholder="Дата заезда*" autocomplete="off" required="">
+    </div>
+    <div class="single__block">
+        <input type="text" name="date_out" placeholder="Дата выезда*" autocomplete="off" required="">
+    </div>
+    <div class="single__block">
+        <select name="count_adults">
+            <option value="" disabled selected>Количество гостей</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+        </select>
     </div>
     <div class="single__block">
         <input type="text" name="phone" placeholder="Телефон*" autocomplete="off" class="phone__mask" required="">

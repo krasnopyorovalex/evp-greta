@@ -21,7 +21,7 @@ class FormHandlerController extends Controller
 {
     use DispatchesJobs;
 
-    private $to = 'bim.director.crimea@gmail.com';
+    private array $to = ['mirgorak@gmail.com', 'mirgorak@yandex.ru', 'djShtaket88@mail.ru'];
 
     /**
      * @param CallbackRequest $request
@@ -29,7 +29,7 @@ class FormHandlerController extends Controller
      */
     public function callback(CallbackRequest $request): array
     {
-        Mail::to([$this->to])->send(new CallbackSent($request->all()));
+        Mail::to($this->to)->send(new CallbackSent($request->all()));
 
         return [
             'message' => 'Благодарим за Вашу заявку. Наш менеджер свяжется с Вами в ближайшее время',
@@ -43,7 +43,7 @@ class FormHandlerController extends Controller
      */
     public function recall(RecallRequest $request): array
     {
-        Mail::to([$this->to])->send(new RecallSent($request->all()));
+        Mail::to($this->to)->send(new RecallSent($request->all()));
 
         return [
             'message' => 'Благодарим за Вашу заявку. Наш менеджер свяжется с Вами в ближайшее время',
@@ -57,7 +57,7 @@ class FormHandlerController extends Controller
      */
     public function calculate(CalculateRequest $request): array
     {
-        Mail::to([$this->to])->send(new CalculateSent($request->all()));
+        Mail::to($this->to)->send(new CalculateSent($request->all()));
 
         return [
             'message' => 'Благодарим за Вашу заявку. Наш менеджер свяжется с Вами в ближайшее время',
@@ -71,7 +71,7 @@ class FormHandlerController extends Controller
      */
     public function order(OrderRequest $request): array
     {
-        Mail::to([$this->to])->send(new OrderSent($request->all()));
+        Mail::to($this->to)->send(new OrderSent($request->all()));
 
         return [
             'message' => 'Благодарим за Вашу заявку. Наш менеджер свяжется с Вами в ближайшее время',

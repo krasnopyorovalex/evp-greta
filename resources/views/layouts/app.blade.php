@@ -14,6 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/app.min.css') }}"/>
+    <link rel="stylesheet" href="{{ asset('css/datepicker.min.css') }}"/>
     <link rel="stylesheet" href="{{ asset('css/custom.css') }}"/>
     <link href="{{ asset('favicon.ico') }}" rel="shortcut icon" type="image/x-icon" />
     <link rel="canonical" href="@yield('canonical', request()->url())"/>
@@ -211,6 +212,7 @@
     <div class="popup__show-bg"></div><div class="loader__bg"></div><div class="notify"></div>
     <script src="{{ asset('js/jquery.3.3.1.min.js') }}"></script>
     <script src="{{ mix('js/app.min.js') }}"></script>
+    <script src="{{ asset('js/datepicker.min.js') }}"></script>
     <script src="{{ asset('js/custom.js') }}"></script>
     @if(app()->environment('production'))
     <!-- Yandex.Metrika counter -->
