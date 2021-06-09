@@ -21,7 +21,7 @@ class FormHandlerController extends Controller
 {
     use DispatchesJobs;
 
-    private array $to = ['mirgorak@gmail.com', 'mirgorak@yandex.ru', 'djShtaket88@mail.ru'];
+    private array $to = ['mirgorak@gmail.com', 'mirgorak@yandex.ru'];
 
     /**
      * @param CallbackRequest $request
