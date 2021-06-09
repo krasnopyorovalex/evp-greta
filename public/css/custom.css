@@ -54,22 +54,22 @@
 }
 .header .intro__text .btn {
     background-color: #FF00FF;
-    border: 1px solid #C800DB;
+    border: 1px solid #FFB5C5;
 }
 .header .intro__text .btn:hover, .btn:hover, .btn.active:hover, #nav__menu .btn:hover {
     background-color: #C800DB;
 }
 .btn, .btn.active {
     background-color: #FF00FF;
-    border: 1px solid #C800DB;
+    border: 1px solid #FFB5C5;
     color: #fff;
 }
 .excursions .buttons div + div {
     margin: 0 0 0 .5rem;
 }
 #nav__menu.is__sticky {
-    background-color: #6EB817;
-    border: none;
+    background-color: #549A10;
+    border-bottom: 1px solid #ddd;
 }
 #nav__menu .nav__menu-box ul li a:hover {
     text-decoration: underline;
@@ -80,6 +80,9 @@
 #nav__menu .btn {
     padding: 6px 14px;
     margin: 0 0 0 1.5em;
+}
+#nav__menu.is__sticky .btn:hover {
+    background-color: #3E7C0A;
 }
 #nav__menu .icon__whatsapp, #nav__menu .icon__viber, .t-msg svg {
     fill: #fff;
@@ -97,7 +100,7 @@ footer .footer__contacts > div {
     align-items: center;
 }
 .title, .excursions .body .name {
-    color: #006400;
+    color: #549A10;
     font-family: 'Russo One', sans-serif;
 }
 .header .intro__text .title, footer .title {
@@ -119,7 +122,7 @@ footer .footer__contacts > div {
 .table-price tr th {
     color: #fefefe;
     font-weight: 400;
-    background-color: #6EB817;
+    background-color: #549A10;
     font-size: 18px;
 }
 .table-price tr td {
@@ -153,6 +156,9 @@ footer .footer__contacts > div {
     color: #666666;
 }
 .map__section form {
+    background-color: #CBF0FE;
+}
+.form__order {
     background-color: #CBF0FE;
 }
 @media screen and (max-width: 992px) {
