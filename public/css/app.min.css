@@ -2072,7 +2072,7 @@ section ul li + li {
 .view__detail {
     padding: 2em;
     width: 100%;
-    max-width: 840px;
+    max-width: 640px;
     position: relative;
     background-color: #fff;
     text-align: center;
