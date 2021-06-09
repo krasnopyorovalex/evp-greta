@@ -68,7 +68,7 @@
     margin: 0 0 0 .5rem;
 }
 #nav__menu.is__sticky {
-    background-color: #549A10;
+    background-color: #C800DB;
     border-bottom: 1px solid #ddd;
 }
 #nav__menu .nav__menu-box ul li a:hover {
@@ -122,7 +122,7 @@ footer .footer__contacts > div {
 .table-price tr th {
     color: #fefefe;
     font-weight: 400;
-    background-color: #549A10;
+    background-color: #C800DB;
     font-size: 18px;
 }
 .table-price tr td {
