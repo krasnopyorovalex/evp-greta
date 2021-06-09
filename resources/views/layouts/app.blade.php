@@ -41,7 +41,7 @@
                             <li><a href="#our__works-section">Наши номера</a></li>
                             <li><a href="#about__section">О нас</a></li>
                             <li><a href="#faq__section">FAQ</a></li>
-                            <li><a href="#guest__section">Отзывы</a></li>
+{{--                            <li><a href="#guest__section">Отзывы</a></li>--}}
                             <li><a href="#contacts__section">Контакты</a></li>
                         </ul>
                     </div>
@@ -66,9 +66,9 @@
                                 </svg>
                             </a>
                         </div>
-                        <div class="btn btn__booking call__popup" data-target="popup__recall">
-                            Обратный звонок
-                        </div>
+{{--                        <div class="btn btn__booking call__popup" data-target="popup__recall">--}}
+{{--                            Обратный звонок--}}
+{{--                        </div>--}}
                         <div class="burger-mob">
                             <span></span>
                         </div>
@@ -149,7 +149,7 @@
                             <li><a href="#our__works-section">Наши номера</a></li>
                             <li><a href="#about__section">О нас</a></li>
                             <li><a href="#faq__section">FAQ</a></li>
-                            <li><a href="#guest__section">Отзывы</a></li>
+{{--                            <li><a href="#guest__section">Отзывы</a></li>--}}
                             <li><a href="#contacts__section">Контакты</a></li>
                         </ul>
                     </div>
@@ -179,7 +179,7 @@
             <li><a href="#our__works-section">Наши номера</a></li>
             <li><a href="#about__section">О нас</a></li>
             <li><a href="#faq__section">FAQ</a></li>
-            <li><a href="#guest__section">Отзывы</a></li>
+{{--            <li><a href="#guest__section">Отзывы</a></li>--}}
             <li><a href="#contacts__section">Контакты</a></li>
         </ul>
         <div class="socials">

@@ -11,7 +11,7 @@
 <section class="excursions">
     <div class="container">
         @foreach($works as $work)
-        <div class="row">
+        <div class="row" id="room-{{ $work->id }}">
             <div class="col-6">
                 <div class="body">
                     <div class="name">
@@ -22,7 +22,7 @@
                     </div>
                     <div class="buttons">
                         <div class="btn order call__popup" data-excursion="{{ $work->name }}" data-target="popup__order">
-                            Заказать тур
+                            Заказать номер
                         </div>
                         <div data-link="{{ route('work.show', ['id' => $work->id]) }}" class="btn view__detail-link">
                             Детали

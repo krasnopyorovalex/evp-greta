@@ -121,27 +121,18 @@ footer .footer__contacts > div {
     padding: 10px;
 }
 .table-price tr th {
-    color: #fefefe;
     font-weight: 400;
-    background-color: #C800DB;
+    background-color: #CBF0FE;
+    color: #000;
     font-size: 18px;
 }
 .table-price tr td {
-    background-color: #CBF0FE;
+    background-color: #fff;
     vertical-align: middle;
     color: #000;
     font-size: 18px;
     border-top: 1px solid #fff;
     font-weight: 400;
-}
-.table-price tr td:nth-child(2n+1) {
-    background-color: #98DDFE;
-}
-.table-price tr:nth-child(2n) td, .table-price tr td:first-child {
-    background-color: #CBF0FE;
-}
-.table-price tr:nth-child(2n) td:nth-child(2n) {
-    background-color: #98DDFE;
 }
 .table-price th {
     text-align: center;
