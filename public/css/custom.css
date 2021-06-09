@@ -134,6 +134,9 @@ footer .footer__contacts > div {
     border-top: 1px solid #fff;
     font-weight: 400;
 }
+.table-price tr td a {
+    color: #000;
+}
 .table-price th {
     text-align: center;
 }
