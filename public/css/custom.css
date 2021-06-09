@@ -82,7 +82,7 @@
     margin: 0 0 0 1.5em;
 }
 #nav__menu.is__sticky .btn:hover {
-    background-color: #C800DB;
+    background-color: #FF00FF;
 }
 #nav__menu .icon__whatsapp, #nav__menu .icon__viber, .t-msg svg {
     fill: #fff;
