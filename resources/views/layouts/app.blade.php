@@ -38,7 +38,7 @@
                 <div class="col-5">
                     <div class="nav__menu-box">
                         <ul>
-                            <li><a href="#our__works-section">Наши туры</a></li>
+                            <li><a href="#our__works-section">Наши номера</a></li>
                             <li><a href="#about__section">О нас</a></li>
                             <li><a href="#faq__section">FAQ</a></li>
                             <li><a href="#guest__section">Отзывы</a></li>
@@ -146,7 +146,7 @@
                     <div class="title">Полезные материалы</div>
                     <div class="footer__menu">
                         <ul>
-                            <li><a href="#our__works-section">Наши туры</a></li>
+                            <li><a href="#our__works-section">Наши номера</a></li>
                             <li><a href="#about__section">О нас</a></li>
                             <li><a href="#faq__section">FAQ</a></li>
                             <li><a href="#guest__section">Отзывы</a></li>
@@ -176,7 +176,7 @@
 
     <div class="mobile__menu">
         <ul>
-            <li><a href="#our__works-section">Наши туры</a></li>
+            <li><a href="#our__works-section">Наши номера</a></li>
             <li><a href="#about__section">О нас</a></li>
             <li><a href="#faq__section">FAQ</a></li>
             <li><a href="#guest__section">Отзывы</a></li>
