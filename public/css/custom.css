@@ -137,6 +137,9 @@ footer .footer__contacts > div {
 .table-price tr td a {
     color: #000;
 }
+.table-price tr td a:hover {
+    text-decoration: underline;
+}
 .table-price th {
     text-align: center;
 }
