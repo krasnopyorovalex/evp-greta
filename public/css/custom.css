@@ -88,6 +88,9 @@
 #nav__menu .icon__whatsapp, #nav__menu .icon__viber, .t-msg svg {
     fill: #fff;
 }
+#nav__menu .right {
+    justify-content: flex-end;
+}
 .t-msg {
     margin: 0 0 0 5px;
 }
