@@ -57,7 +57,7 @@ return [
 
     'from' => [
         'address' => env('MAIL_FROM_ADDRESS', 'noreply@evp-greta.ru'),
-        'name' => env('MAIL_FROM_NAME', 'Евпатория Грета'),
+        'name' => env('MAIL_FROM_NAME', 'GRETA Гостевой дом в Евпатории'),
     ],
 
     /*
