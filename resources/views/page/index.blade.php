@@ -6,6 +6,9 @@
 @section('content')
 
     <main>
+
+        @includeWhen(count($works), 'layouts.sections.works')
+
         <section>
             <div class="container">
                 <div class="row">
@@ -15,8 +18,6 @@
                 </div>
             </div>
         </section>
-
-        @includeWhen(count($works), 'layouts.sections.works')
 
         @includeWhen(count($abouts), 'layouts.sections.about')
 
