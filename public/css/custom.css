@@ -182,4 +182,7 @@ footer .footer__contacts > div {
     .default .title, .title {
         margin: .5rem 0 0 0;
     }
+    .scrolled {
+        overflow-x: auto;
+    }
 }
