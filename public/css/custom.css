@@ -156,12 +156,6 @@ footer .footer__contacts > div {
     font-size: 14px;
     color: #666666;
 }
-.map__section form {
-    background-color: #CBF0FE;
-}
-.form__order {
-    background-color: #CBF0FE;
-}
 @media screen and (max-width: 992px) {
     .t-msg svg {
         width: 28px;
