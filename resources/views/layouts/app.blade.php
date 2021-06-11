@@ -111,7 +111,7 @@
                             <svg class="icon">
                                 <use xlink:href="{{ asset('img/symbols.svg#phone') }}"></use>
                             </svg>
-                            <a href="tel:+79782137415">+7 (978) 082 42 44</a>
+                            <a href="tel:+79780824244">+7 (978) 082 42 44</a>
                             <a href="https://wa.me/79780824244" class="t-msg">
                                 <svg class="icon__whatsapp">
                                     <use xlink:href="{{ asset('img/symbols.svg#whatsapp') }}"></use>
