@@ -81,7 +81,7 @@
                             {{--                            <li><a href="{{ route('admin.services.index') }}"><i class="icon-menu6"></i> <span>Услуги</span></a></li>--}}
                             <li><a href="{{ route('admin.faqs.index') }}"><i class="icon-question3"></i> <span>Faq</span></a></li>
 {{--                            <li><a href="{{ route('admin.sliders.index') }}"><i class="icon-images2"></i> <span>Слайдер</span></a></li>--}}
-{{--                            <li><a href="{{ route('admin.galleries.index') }}"><i class="icon-images3"></i> <span>Галерея</span></a></li>--}}
+                            <li><a href="{{ route('admin.galleries.index') }}"><i class="icon-images3"></i> <span>Галерея</span></a></li>
 {{--                            <li><a href="{{ route('admin.text_blocks.index') }}"><i class="icon-stack2"></i> <span>Текстовые-блоки</span></a></li>--}}
 {{--                            <li><a href="{{ route('admin.redirects.index') }}"><i class="icon-transmission"></i> <span>Редиректы</span></a></li>--}}
                             <!-- /main -->
