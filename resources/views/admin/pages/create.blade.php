@@ -17,7 +17,7 @@
             <form action="{{ route('admin.pages.store') }}" method="post" enctype="multipart/form-data">
                 @csrf
 
-                @select(['name' => 'gallery_id', 'label' => 'Галерея', 'items' => $galleries])
+                @select(['name' => 'gallery_id', 'label' => 'Галерея', 'items' => $galleries, 'entity' => $page])
 
                 <div class="form-group">
                     <label for="template">Шаблон страницы:</label>
