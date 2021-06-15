@@ -27,6 +27,8 @@
 
         @includeWhen(count($actions), 'layouts.sections.actions')
 
+        @includeWhen(count($gallery), 'layouts.sections.gallery')
+
         <section class="map__section" id="contacts__section">
             <div class="container">
                 <div class="row">
