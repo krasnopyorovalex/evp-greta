@@ -9,7 +9,7 @@
 
         @includeWhen(count($works), 'layouts.sections.works')
 
-        <section>
+        <section id="main-text" class="section">
             <div class="container">
                 <div class="row">
                     <div class="col-12">

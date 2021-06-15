@@ -40,9 +40,9 @@
                     <div class="nav__menu-box">
                         <ul>
                             <li><a href="#our__works-section">Наши номера</a></li>
+                            <li><a href="#main-text">Цены 2021</a></li>
                             <li><a href="#about__section">О нас</a></li>
                             <li><a href="#faq__section">FAQ</a></li>
-{{--                            <li><a href="#guest__section">Отзывы</a></li>--}}
                             <li><a href="#contacts__section">Контакты</a></li>
                         </ul>
                     </div>
@@ -85,7 +85,7 @@
                 <div class="col-12">
                     <div class="intro__text">
                         <div class="title">
-                            <div>Недвижимость Евпатория</div>
+                            <div>Отдых в Евпатории</div>
                         </div>
                         <div class="sub__title">
                             <div></div>
@@ -143,11 +143,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-7 right">
                     <div class="title">Полезные материалы</div>
                     <div class="footer__menu">
                         <ul>
                             <li><a href="#our__works-section">Наши номера</a></li>
+                            <li><a href="#main-text">Цены 2021</a></li>
                             <li><a href="#about__section">О нас</a></li>
                             <li><a href="#faq__section">FAQ</a></li>
 {{--                            <li><a href="#guest__section">Отзывы</a></li>--}}
@@ -155,12 +156,12 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-3">
-                    <div class="title right">Мы в соцсетях</div>
-                    <div class="footer__socials">
-                        @include('layouts.partials.socials')
-                    </div>
-                </div>
+{{--                <div class="col-3">--}}
+{{--                    <div class="title right"></div>--}}
+{{--                    <div class="footer__socials">--}}
+{{--                        @include('layouts.partials.socials')--}}
+{{--                    </div>--}}
+{{--                </div>--}}
             </div>
             <div class="row">
                 <div class="col-12">
@@ -168,8 +169,22 @@
                 </div>
             </div>
             <div class="row flex-center">
-                <div class="col-12">
+                <div class="col-6">
                     <div class="copyright">© {{ date('Y') }} Недвижимость в Евпатории. Все права защищены.</div>
+                </div>
+                <div class="col-6">
+                    <div class="develop">
+                        <div class="develop__link">
+                            <a href="https://krasber.ru" rel="nofollow" target="_blank">
+                                Создание, продвижение и <br>техподдержка сайтов
+                            </a>
+                        </div>
+                        <div class="develop__logo">
+                            <a href="https://krasber.ru" target="_blank">
+                                <img src="https://villa-sany.ru/img/krasber.svg" alt="Веб-студия Красбер">
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -178,6 +193,7 @@
     <div class="mobile__menu">
         <ul>
             <li><a href="#our__works-section">Наши номера</a></li>
+            <li><a href="#main-text">Цены 2021</a></li>
             <li><a href="#about__section">О нас</a></li>
             <li><a href="#faq__section">FAQ</a></li>
 {{--            <li><a href="#guest__section">Отзывы</a></li>--}}

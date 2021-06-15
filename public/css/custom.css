@@ -156,6 +156,12 @@ footer .footer__contacts > div {
     font-size: 14px;
     color: #666666;
 }
+.section {
+    margin: 2rem 0 0 0;
+}
+footer .develop__link a {
+    font-family: "Source Sans Pro", sans-serif;
+}
 @media screen and (max-width: 992px) {
     .t-msg svg {
         width: 28px;
