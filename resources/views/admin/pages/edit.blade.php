@@ -44,7 +44,7 @@
                                             @endforeach
                                         </select>
                                     </div>
-                                    @select(['name' => 'slider_id', 'label' => 'Слайдер', 'items' => $sliders, 'entity' => $page])
+                                    @select(['name' => 'gallery_id', 'label' => 'Галерея', 'items' => $galleries])
                                 </div>
                             </div>
 
