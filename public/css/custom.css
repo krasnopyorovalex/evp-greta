@@ -164,6 +164,55 @@ footer .footer__contacts > div {
 footer .develop__link a {
     font-family: "Source Sans Pro", sans-serif;
 }
+.gallery__box {
+    display:-webkit-box;
+    display:flex;
+    flex-wrap:wrap;
+    align-content:center
+}
+.gallery__box figure {
+    position:relative;
+    box-sizing:border-box;
+    flex-basis:20%
+}
+.gallery__box figure:after {
+    background-color:rgba(0,0,0,.5);
+    position:absolute;
+    content:"";
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    -webkit-transition:all .3s ease;
+    transition:all .3s ease;
+    opacity:0
+}
+.gallery__box figure img {
+    height:100%
+}
+.gallery__box figure .icon {
+    -webkit-transition:all .3s ease;
+    transition:all .3s ease;
+    width:60px;
+    height:60px;
+    display:inline-block;
+    fill:#fff;
+    position:absolute;
+    top:calc(50% - 30px);
+    left:calc(50% - 30px);
+    background-color:#549A10;
+    padding:18px;
+    border-radius:50%;
+    opacity:0;
+    z-index:10;
+    cursor:pointer
+}
+.gallery__box figure:hover:after {
+    opacity:1
+}
+.gallery__box figure:hover .icon {
+    opacity:1
+}
 @media screen and (max-width: 992px) {
     .t-msg svg {
         width: 28px;
