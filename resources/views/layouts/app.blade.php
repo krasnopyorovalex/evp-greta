@@ -170,7 +170,7 @@
             </div>
             <div class="row flex-center">
                 <div class="col-6">
-                    <div class="copyright">© {{ date('Y') }} Недвижимость в Евпатории. Все права защищены.</div>
+                    <div class="copyright">© {{ date('Y') }} Отдых в Евпатории. Все права защищены.</div>
                 </div>
                 <div class="col-6">
                     <div class="develop">
