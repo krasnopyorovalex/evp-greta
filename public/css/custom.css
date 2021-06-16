@@ -259,6 +259,9 @@ footer .footer__socials > div:hover .icon:not(.icon__address) {
     .scrolled {
         overflow-x: scroll;
     }
+    .gallery__box {
+        margin: 1rem 0 0 0;
+    }
     .gallery__box figure {
         flex-basis: 50%;
     }
