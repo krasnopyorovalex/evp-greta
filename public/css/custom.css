@@ -219,7 +219,7 @@ footer .develop__link a {
 .about a:hover {
     text-decoration: underline;
 }
-footer .footer__menu ul li a:hover {
+footer a:hover {
     color: #FFFFFF;
     text-decoration: underline;
 }
