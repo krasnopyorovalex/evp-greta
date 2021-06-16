@@ -222,11 +222,13 @@ footer .develop__link a {
 footer a:hover,
 footer .footer__menu ul li a:hover,
 footer .footer__contacts > div:hover a,
-footer .footer__socials > div:hover a,
-footer .footer__contacts > div:hover .icon:not(.icon__address),
-footer .footer__socials > div:hover .icon:not(.icon__address) {
+footer .footer__socials > div:hover a{
     color: #FFFFFF;
     text-decoration: underline;
+}
+footer .footer__contacts > div:hover .icon:not(.icon__address),
+footer .footer__socials > div:hover .icon:not(.icon__address) {
+    fill: #FFFFFF;
 }
 @media screen and (max-width: 992px) {
     .t-msg svg {
