@@ -268,4 +268,7 @@ footer .footer__socials > div:hover .icon:not(.icon__address) {
     .popup {
         top: 0;
     }
+    .form__order .single__block select {
+        padding: 5px 12px;
+    }
 }
