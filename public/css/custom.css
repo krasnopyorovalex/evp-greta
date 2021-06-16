@@ -233,7 +233,7 @@ footer .footer__socials > div:hover .icon:not(.icon__address) {
 .gallery__box {
     justify-content: center;
 }
-.gallery .title {
+.gallery {
     text-align: center;
 }
 @media screen and (max-width: 992px) {
