@@ -230,6 +230,12 @@ footer .footer__contacts > div:hover .icon:not(.icon__address),
 footer .footer__socials > div:hover .icon:not(.icon__address) {
     fill: #FFFFFF;
 }
+.gallery__box {
+    justify-content: center;
+}
+.gallery .title {
+    text-align: center;
+}
 @media screen and (max-width: 992px) {
     .t-msg svg {
         width: 28px;
