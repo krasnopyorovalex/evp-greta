@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/app.min.css') }}"/>
     <link rel="stylesheet" href="{{ asset('css/datepicker.min.css') }}"/>
-    <link rel="stylesheet" href="{{ asset('css/custom.css') }}?v=1"/>
+    <link rel="stylesheet" href="{{ asset('css/custom.css') }}?v=2"/>
     <link href="{{ asset('favicon.ico') }}" rel="shortcut icon" type="image/x-icon" />
     <link rel="canonical" href="@yield('canonical', request()->url())"/>
 </head>
