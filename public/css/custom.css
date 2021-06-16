@@ -239,6 +239,24 @@ footer .footer__socials > div:hover .icon:not(.icon__address) {
 #main-text {
     text-align: center;
 }
+.single__block.with-dates {
+    display: flex;
+    align-items: center;
+}
+.single__block.with-dates input {
+    width: 48%;
+}
+.single__block.with-dates input + input {
+    margin: 0 0 0 4%;
+}
+.form__order .single__block input,
+.form__order .single__block textarea,
+.form__order .single__block select {
+    padding: 8px 12px;
+}
+.form__order .submit {
+    margin: 0;
+}
 @media screen and (max-width: 992px) {
     .t-msg svg {
         width: 28px;

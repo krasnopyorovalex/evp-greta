@@ -21,10 +21,8 @@
     <div class="single__block">
         <input type="text" name="fio" placeholder="ФИО*" autocomplete="off" required="">
     </div>
-    <div class="single__block">
+    <div class="single__block with-dates">
         <input type="text" name="date_in" placeholder="Дата заезда*" autocomplete="off" required="">
-    </div>
-    <div class="single__block">
         <input type="text" name="date_out" placeholder="Дата выезда*" autocomplete="off" required="">
     </div>
     <div class="single__block">
