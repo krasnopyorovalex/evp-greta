@@ -33,7 +33,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A60134e9a0f7a40871ee95d139cb0f6efb4d54141400b6e96aa52db44796f5deb&amp;source=constructor&amp;scroll=false" width="100%" height="490" frameborder="0"></iframe>
+                        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ac63127d10cde876d0d1e9f246661e1dcac11be61c3bde097c2785fb801dc9a28&amp;source=constructor&amp;scroll=false" width="100%" height="490" frameborder="0"></iframe>
                     </div>
 {{--                    <div class="col-4">--}}
 {{--                        @include('layouts.forms.callback')--}}
