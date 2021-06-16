@@ -219,7 +219,12 @@ footer .develop__link a {
 .about a:hover {
     text-decoration: underline;
 }
-footer a:hover, footer .footer__menu ul li a:hover, footer .footer__contacts > div:hover a, footer .footer__socials > div:hover a {
+footer a:hover,
+footer .footer__menu ul li a:hover,
+footer .footer__contacts > div:hover a,
+footer .footer__socials > div:hover a,
+footer .footer__contacts > div:hover .icon:not(.icon__address),
+footer .footer__socials > div:hover .icon:not(.icon__address) {
     color: #FFFFFF;
     text-decoration: underline;
 }
