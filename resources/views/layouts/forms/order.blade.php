@@ -5,7 +5,7 @@
     </div>
     <div class="single__block">
         <div class="title">
-            Форма заказа тура
+            Бронирование
         </div>
     </div>
     <div class="single__block">

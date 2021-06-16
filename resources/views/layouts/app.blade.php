@@ -91,7 +91,7 @@
                             <div></div>
                         </div>
                         <div class="h-btn-box">
-                            <div class="btn call__popup" data-target="popup__order">Забронировать</div>
+                            <div class="btn call__popup" data-target="popup__order">Забронировать номер</div>
                         </div>
                     </div>
                 </div>

@@ -236,6 +236,9 @@ footer .footer__socials > div:hover .icon:not(.icon__address) {
 .gallery {
     text-align: center;
 }
+#main-text {
+    text-align: center;
+}
 @media screen and (max-width: 992px) {
     .t-msg svg {
         width: 28px;

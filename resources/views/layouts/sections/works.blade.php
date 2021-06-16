@@ -22,7 +22,7 @@
                     </div>
                     <div class="buttons">
                         <div class="btn order call__popup" data-excursion="{{ $work->name }}" data-target="popup__order">
-                            Заказать номер
+                            Забронировать номер
                         </div>
                         <div data-link="{{ route('work.show', ['id' => $work->id]) }}" class="btn view__detail-link">
                             Детали
