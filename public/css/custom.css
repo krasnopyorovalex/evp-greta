@@ -213,6 +213,12 @@ footer .develop__link a {
 .gallery__box figure:hover .icon {
     opacity:1
 }
+.about a {
+    color: #FF00FF;
+}
+.about a:hover {
+    text-decoration: underline;
+}
 @media screen and (max-width: 992px) {
     .t-msg svg {
         width: 28px;
