@@ -50,9 +50,11 @@
                 <div class="col-4">
                     <div class="right flex__box">
                         <div class="phone">
-                            <svg class="icon">
-                                <use xlink:href="{{ asset('img/symbols.svg#phone_mob') }}"></use>
-                            </svg>
+                            <a href="tel:+79780824244">
+                                <svg class="icon">
+                                    <use xlink:href="{{ asset('img/symbols.svg#phone_mob') }}"></use>
+                                </svg>
+                            </a>
                             <a href="tel:+79780824244">
                                 +7 (978) 082 42 44
                             </a>
