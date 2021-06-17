@@ -24,6 +24,7 @@ class OrderRequest extends Request
             'date_in' => 'required|date_format:"d.m.Y"|after_or_equal:today',
             'date_out' => 'required|date_format:"d.m.Y"|after:date_in',
             'count_adults' => 'required|between:1,6',
+            'email' => 'required|email',
         ];
     }
 }

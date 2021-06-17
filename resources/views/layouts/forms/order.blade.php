@@ -37,6 +37,9 @@
         </select>
     </div>
     <div class="single__block">
+        <input type="email" name="email" placeholder="Email*" autocomplete="off" required="">
+    </div>
+    <div class="single__block">
         <input type="text" name="phone" placeholder="Телефон*" autocomplete="off" class="phone__mask" required="">
     </div>
     <div class="single__block">
