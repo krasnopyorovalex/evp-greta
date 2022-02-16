@@ -40,7 +40,7 @@
                     <div class="nav__menu-box">
                         <ul>
                             <li><a href="#our__works-section">Наши номера</a></li>
-                            <li><a href="#main-text">Цены 2021</a></li>
+                            <li><a href="#main-text">Цены {{ date('Y') }}</a></li>
                             <li><a href="#about__section">О нас</a></li>
                             <li><a href="#faq__section">FAQ</a></li>
                             <li><a href="#contacts__section">Контакты</a></li>
@@ -150,7 +150,7 @@
                     <div class="footer__menu">
                         <ul>
                             <li><a href="#our__works-section">Наши номера</a></li>
-                            <li><a href="#main-text">Цены 2021</a></li>
+                            <li><a href="#main-text">Цены {{ date('Y') }}</a></li>
                             <li><a href="#about__section">О нас</a></li>
                             <li><a href="#faq__section">FAQ</a></li>
 {{--                            <li><a href="#guest__section">Отзывы</a></li>--}}
